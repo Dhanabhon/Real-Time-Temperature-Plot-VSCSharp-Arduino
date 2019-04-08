@@ -1,9 +1,9 @@
 # Real-Time-Temperature-Plot-VSCSharp-Arduino
-โปรแกรม Plot Graph ค่าอุณหภูมิ ที่ได้จาก Temperature sensor โดยรับค่าจากบอร์ด Arduino ส่งผ่าน Serial Port พัฒนาโดยใช้ภาษา C#
+Example Real-time temperature graph between C#.NET and Arduino
 
-โปรแกรมนี้วาดกราฟโดยใช้ไลบรารี่ ZedGraph สามารถดาวน์โหลดได้จาก http://zedgraph.sourceforge.net/samples.html 
+Using ZedGraph Library (http://zedgraph.sourceforge.net/samples.html)
 
-*   *โปรแกรมบนฝั่งไมโครคอนโทรลเลอร์ ซึ่ง Project นี้ใช้บอร์ด Arduino UNO R3 สามารถเขียน Code ได้ดังนี้:**
+*   *Arduino UNO R3 Code:**
 
         #include <math.h>
         
